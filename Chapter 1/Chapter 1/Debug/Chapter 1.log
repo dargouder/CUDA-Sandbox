@@ -1,0 +1,30 @@
+﻿Build started 27/11/2015 16:50:07.
+     1>Project "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1\Chapter 1.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1\helloworld.cu" 
+       CudaBuild:
+         Compiling CUDA source file helloworld.cu...
+         cmd.exe /C "C:\Users\Darryl\AppData\Local\Temp\tmp85c8caedf3494e509da4a632bbf36026.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\helloworld.cu.obj "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1\helloworld.cu"
+         
+         C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\helloworld.cu.obj "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1\helloworld.cu" 
+     1>C:/Users/Darryl/Documents/Programming CUDA by example/Chapter 1/Chapter 1/helloworld.cu(68): warning : missing return statement at end of non-void function "DeviceParameterInformation"
+     1>C:/Users/Darryl/Documents/Programming CUDA by example/Chapter 1/Chapter 1/helloworld.cu(68): warning : missing return statement at end of non-void function "DeviceParameterInformation"
+         helloworld.cu
+     1>c:\users\darryl\documents\programming cuda by example\chapter 1\chapter 1\helloworld.cu(68): warning C4715: 'DeviceParameterInformation' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\Chapter 1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\Chapter 1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\Chapter 1.lib" /MACHINE:X86 Debug\helloworld.cu.obj
+         Chapter 1.vcxproj -> C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\Chapter 1.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 1\Chapter 1\Chapter 1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.94
