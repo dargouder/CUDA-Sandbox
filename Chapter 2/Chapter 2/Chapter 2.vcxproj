@@ -154,8 +154,14 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     <CudaCompile Include="kernel.cu" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="JuliaSet.cuh" />
+    <ClInclude Include="RGBColour.h" />
     <ClInclude Include="Utilities.cuh" />
     <ClInclude Include="VectorSum.cuh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Image.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
