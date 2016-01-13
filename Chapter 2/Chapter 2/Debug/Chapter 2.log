@@ -1,30 +1,44 @@
-﻿Build started 27/11/2015 18:53:07.
-     1>Project "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2\Chapter 2.vcxproj" on node 2 (Build target(s)).
+﻿Build started 03/12/2015 01:22:33.
+     1>Project "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2\Chapter 2.vcxproj" on node 2 (Build target(s)).
      1>AddCudaCompileDeps:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2\kernel.cu" 
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2\kernel.cu" 
        CudaBuild:
          Compiling CUDA source file kernel.cu...
-         cmd.exe /C "C:\Users\Darryl\AppData\Local\Temp\tmp6a986a59c4494def8d302915d5839221.cmd"
-         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2\kernel.cu"
+         cmd.exe /C "C:\Users\Darryl\AppData\Local\Temp\tmpf54fd0dfb8e64f46982aff6aa7450ebe.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2\kernel.cu"
          
-         C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2\kernel.cu" 
-     1>C:/Users/Darryl/Documents/Programming CUDA by example/Chapter 2/Chapter 2/kernel.cu(64): warning : missing return statement at end of non-void function "DeviceParameterInformation"
-     1>C:/Users/Darryl/Documents/Programming CUDA by example/Chapter 2/Chapter 2/kernel.cu(64): warning : missing return statement at end of non-void function "DeviceParameterInformation"
+         D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\kernel.cu.obj "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2\kernel.cu" 
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\Utilities.cuh(67): warning : missing return statement at end of non-void function "DeviceParameterInformation"
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\JuliaSet.cuh(86): warning : variable "pitch" was declared but never referenced
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\Utilities.cuh(67): warning : missing return statement at end of non-void function "DeviceParameterInformation"
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\JuliaSet.cuh(86): warning : variable "pitch" was declared but never referenced
          kernel.cu
-     1>c:\users\darryl\documents\programming cuda by example\chapter 2\chapter 2\kernel.cu(64): warning C4715: 'DeviceParameterInformation' : not all control paths return a value
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\JuliaSet.cuh(32): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\JuliaSet.cuh(86): warning C4101: 'pitch' : unreferenced local variable
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\utilities.cuh(67): warning C4715: 'DeviceParameterInformation' : not all control paths return a value
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Image.cpp
+         Image.cpp
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(54): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(74): warning C4101: 'iblue' : unreferenced local variable
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(74): warning C4101: 'ired' : unreferenced local variable
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(74): warning C4101: 'igreen' : unreferenced local variable
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(99): warning C4129: ' ' : unrecognized character escape sequence
+     1>d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\image.cpp(129): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\Chapter 2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\Chapter 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\Chapter 2.lib" /MACHINE:X86 Debug\kernel.cu.obj
-         Chapter 2.vcxproj -> C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\Chapter 2.exe
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\Chapter 2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\Chapter 2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\Chapter 2.lib" /MACHINE:X86 Debug\kernel.cu.obj
+         Debug\Image.obj
+         Chapter 2.vcxproj -> D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\Chapter 2.exe
        PostBuildEvent:
-         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\"
-         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\"
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\"
          :VCEnd
-         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Debug\"
          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
                  2 file(s) copied.
-     1>Done Building Project "C:\Users\Darryl\Documents\Programming CUDA by example\Chapter 2\Chapter 2\Chapter 2.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\Users\Darryl\Documents\GitHub\CUDA-Sandbox\Chapter 2\Chapter 2\Chapter 2.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:23.80
+Time Elapsed 00:00:12.15

@@ -378,12 +378,10 @@ c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\host_defines.h
 c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\vector_functions.h
 c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_launch_parameters.h
 c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\vector_types.h
+d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\VectorSum.cuh
+d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\Utilities.cuh
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include\cuda_runtime.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include\device_launch_parameters.h
-C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
-C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
-C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sstream
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iterator
@@ -392,6 +390,10 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ostream
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ios
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\climits
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\swprintf.inl
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\streambuf
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xiosbase
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocale
@@ -459,3 +461,7 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\errno.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\share.h
 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\iostream
+d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\JuliaSet.cuh
+d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\Image.h
+C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\fstream
+d:\users\darryl\documents\github\cuda-sandbox\chapter 2\chapter 2\RGBColour.h

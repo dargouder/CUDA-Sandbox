@@ -65,3 +65,45 @@ std::stringstream DeviceParameterInformation() {
 		return ss;
 	}
 }
+
+class Complex {
+public:
+	float r;
+	float i;
+
+	Complex(float p_r, float p_i) : r(p_r), i(p_i) {
+
+	}
+
+	float magnitude2(void) {
+		return r*r + i*i;
+	}
+	Complex operator*(const Complex& p_a) {
+		return Complex(r * p_a.r - i*p_a.i, i*p_a.r + r * p_a.i);
+	}
+
+	Complex operator+(const Complex& p_a) {
+		return Complex(r + p_a.r, i + p_a.i);
+	}
+};
+
+class Complex_d{
+public:
+	float r;
+	float i;
+
+	__device__ Complex_d(float p_r, float p_i) : r(p_r), i(p_i) {
+
+	}
+
+	__device__ float magnitude2(void) {
+		return r*r + i*i;
+	}
+	__device__ Complex_d operator*(const Complex_d& p_a) {
+		return Complex_d(r * p_a.r - i*p_a.i, i*p_a.r + r * p_a.i);
+	}
+
+	__device__ Complex_d operator+(const Complex_d& p_a) {
+		return Complex_d(r + p_a.r, i + p_a.i);
+	}
+};

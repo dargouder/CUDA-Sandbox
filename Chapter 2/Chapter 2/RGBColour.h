@@ -94,7 +94,7 @@ public:
 		return true;
 	}
 
-	inline bool IsBlack() {
+	inline bool IsBlack() const {
 		return r == 0 && g == 0 && b == 0;
 	}
 };

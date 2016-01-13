@@ -1,10 +1,11 @@
 
 
 #include "VectorSum.cuh"
-
+#include "JuliaSet.cuh"
 
 
 int main() {
-	VectorSum();
+	//VectorSum();
+	ComputeJuliaSetGPU();
 	return 0;
 }
